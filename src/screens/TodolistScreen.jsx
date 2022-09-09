@@ -1,5 +1,6 @@
 import React from 'react'
 import { CountTask, TaskElement } from '../components'
+import { INITIAL_TODO } from './../utils/TODO'
 
 const TodolistScreen = () => {
     return (
@@ -16,8 +17,16 @@ const TodolistScreen = () => {
             </div>
 
             <CountTask />
-            <TaskElement />
-            <TaskElement />
+
+            {
+                // AFFICHAGE AVEC UN PEU DE DYNAMISME
+
+                INITIAL_TODO.map((item) => {
+                    return (
+                        <TaskElement task={item} />
+                    )
+                })
+            }
         </div>
     )
 }
