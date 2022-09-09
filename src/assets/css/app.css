@@ -119,3 +119,19 @@ body {
     color: var(--white-color);
     background: var(--primary-color)
 }
+
+/* FOR MOBILE */
+
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col-2,
+    .col-6,
+    .col-10,
+    .col-12 {
+        width: 98%;
+        margin: 10px 0;
+    }
+}
