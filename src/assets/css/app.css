@@ -1,0 +1,8 @@
+/** INITIALISATION OF VALUES */
+
+:root {
+    --primary-color: #001542;
+    --danger-color: #520120;
+    --white-color: #FFFFFF;
+    --primary-opac-color: hsla(220, 43%, 80%, 0.035);
+}

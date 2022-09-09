@@ -1,12 +1,10 @@
 import './App.css';
+import TodolistScreen from './screens/TodolistScreen';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>My name is Takam Rushclin</h1>
-      </header>
-    </div>
+    // Je mets juste ceci parce que j'ai pas installe la navigation avec react-roouter-dom
+    <TodolistScreen />
   );
 }
 
